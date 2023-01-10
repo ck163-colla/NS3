@@ -16,7 +16,7 @@ sudo chmod -R 777 build
 
 # js文件配置
 ## tasks.json
-···
+```
 {
 	"version": "2.0.0",
 	"tasks": [
@@ -45,4 +45,4 @@ sudo chmod -R 777 build
 		}
 	]
 }
-···
+```
