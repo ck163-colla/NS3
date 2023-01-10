@@ -1,7 +1,8 @@
 # 1、NS3-install
-## ns3.27<br> python3.6
+## ns3.27
+### 安装教程
 https://blog.csdn.net/yangzhenyu2/article/details/116205406  
-### 可视化
+### 可视化教程
 https://blog.csdn.net/a6333230/article/details/108296948  
 
 # 2、NS3 + VSCODE 
