@@ -11,10 +11,12 @@ https://blog.csdn.net/a6333230/article/details/108296948
 配置视频教程：https://www.bilibili.com/video/BV1pU4y1W74Z/
 
 # 3、root权限下无法打开code
-代替方案：  
-cd ns3.27  
-sudo chmod -R 777 build  
-终端使用code .命令打开
+代替方案：
+```
+cd ns3.27
+sudo chmod -R 777 build
+```
+终端使用```code .```命令打开
 
 # 4、js文件配置
 ## tasks.json
