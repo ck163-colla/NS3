@@ -13,3 +13,36 @@ https://blog.csdn.net/a6333230/article/details/108296948
 解决方法：  
 cd ns3.27  
 sudo chmod -R 777 build
+
+# js文件配置
+## tasks.json
+···
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cpp build active file",
+			"command": "./waf",
+			"args": [
+				//"-fdiagnostics-color=always",
+				//"-g",
+				//"${file}",
+				//"-o",
+				//"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "编译器: /usr/bin/cpp"
+		}
+	]
+}
+···
