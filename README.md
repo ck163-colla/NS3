@@ -88,7 +88,7 @@ sudo chmod -R 777 build
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/build/*"
+                "${workspaceFolder}/build/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
